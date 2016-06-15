@@ -1,0 +1,126 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Courier;
+	
+}
+body {
+	text-align: center;
+}
+p {
+	font-size: 20px;
+}
+#titulo {
+	font-size: 50px;
+	text-align: center;
+	background-color: #009688;
+	color: white;
+	padding: 20px;
+
+
+}
+
+#nav {
+	 padding: 3px 15px;
+	 background-color: white; 
+
+	
+}
+
+#nav li {
+
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font:   40px Courier, sans-serif;
+	color: black;
+}
+
+#seccion {
+	float: left;
+	/*valores importantes*/
+	width: 70%;
+	margin: 0px 0px;
+	background-color: #fff;
+	box-sizing: border-box;
+	
+}
+
+img{
+	width: 80%;
+	height: auto;
+}
+
+#columna {
+	display: inline;
+	float: left;
+	/*valores importantes*/
+	width: 30%;
+	background: #CCCCCC;
+	padding: 20px;
+	box-sizing: border-box
+
+}
+
+#pie {
+	
+	clear: both;
+	padding: 20px;
+	border-top: 2px solid #999999;
+	
+}
+.titulodentrada {
+	font-size: 30px;
+}
+
+hgroup {
+	display: block;
+	text-align: center;
+}
+
+article {
+	background: #B2DFDB;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer {
+	text-align: right;
+}
+time {
+	color: #999999;
+}
+figcaption {
+	font: italic 14px verdana, sans-serif;
+}
+
+.contenedor{
+	/*valores importantes*/
+	width: 80%;
+	max-width: 1368px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		/*Esto es solo por probar que funca
+		background: #ff8000;*/
+	}
+	#seccion{
+		width: 100%;
+	}
+	#columna{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.contenedor{
+		width: 100%;
+	}
+	#columna{
+		display: none;
+	}
+}
