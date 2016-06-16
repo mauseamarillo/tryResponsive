@@ -86,7 +86,7 @@ iframe{
 }
 
 #pie {
-	
+	text-align: center;
 	clear: both;
 	padding: 20px;
 	border-top: 2px solid #999999;
